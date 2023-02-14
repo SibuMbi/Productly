@@ -1,168 +1,143 @@
-.Navigation {
-/* 01 Navigation */
+body {
 position: absolute;
 width: 1400px;
-height: 78px;
-left: 0px;
-top: 20px;  
+height: 3843px;
+font-family: 'Poppins', sans-serif;
+}
+.header {
+width: 100%;
+max-width: 1400px;
+margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
+display: flex;
+justify-content: space;
+align-items: center;
+box-sizing: border-box;
+}
+.nav{
+list-style-type: none;
+display: flex;
+justify-content: flex-start;
+}
+.nav>li {
+margin-left: 15px;
 }
 
-.Logo {
-/* Logo */
-position: absolute;
-width: 185.34px;
-height: 31.97px;
-left: 143.92px;
-top: 22px; 
-
-/* Group 31 */
-position: absolute;
-width: 30.16px;
-height: 30px;
-left: 143.92px;
-top: 22px;
-
- 
-/* Bitmap */
-position: absolute;
-left: 10.28%;
-right: 87.49%;
-top: 28.21%;
-bottom: 30.77%;
-background: url(Image.png);
-
-/* Rectangle */
-position: absolute;
-left: 10.28%;
-right: 87.57%;
-top: 28.21%;
-bottom: 33.33%;
-background: #D8D8D8;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 7px;
-
-/* Rectangle */
-position: absolute;
-left: 10.28%;
-right: 87.57%;
-top: 28.21%;
-bottom: 33.33%;
-background: #D8D8D8;
-border-radius: 7px;
-}
-
-.Productly{
-/* Productly */
-position: absolute;
-left: 13.3%;
-right: 76.48%;
-top: 32.05%;
-bottom: 30.8%;
-background: #173A56;
-}
-
-.Product-customer{
-/* Product Customers Pr */
-position: absolute;
-height: 28px;
-left: 46.43%;
-right: 28.57%;
-top: calc(50% - 28px/2 - 1px);
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 28px;
-/* identical to box height, or 200% */
+.nav>li>a {   
+text-decoration: none;
 color: #2F281E;
 }
 
-.Button {
-/* Button */
+.nav_btn1 {
+
+background-color: lightcyan ;
+
+}
+.nav_btn2 {
+
+background-color:#FF9900 ;
+
+}
+.logo{
+position: 250px;
+width: 185.34px;
+height: 31.97px;
+left: 143.92px;
+top: 22px;
+display: flex;
+align-items: center;
+}
+
+.logo_img {
+display: block;
+width: 30.16px;
+height: 30px;
+background-image: url(../Images/Bitmap.png);
+margin-right: 20px;
+}
+
+.logo_text {
+font-size: 14px ;
+color:#2F281E ;
+
+}
+
+.sign-up
+{ 
 position: absolute;
 left: 81.79%;
 right: 10.36%;
 top: 19.23%;
 bottom: 21.79%;
-
-/* Sign Up */
-position: absolute;
-height: 24px;
-left: 22.73%;
-right: 20.91%;
-top: calc(50% - 24px/2);
-
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
 line-height: 24px;
 /* identical to box height */
-
-/* Bg */
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
+color: #FFFFFF;
 background: #FF9900;
 border-radius: 4px;
-
-/* Rectangle */
-position: absolute;
-left: 0%;
-right: 0%;
-top: 100%;
-bottom: -100%;
-background: #FFFFFF;
-transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
-.Button{
+.left-side{
+/* Left side */
+width: 518px;
+height: 331px;
+left: 145px;
+top: 211px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.block {
+/* button */
+width: 175px;
+height: 53px;
+left: 145px;
+top: 489px;
+justify-content: baseline;
+align-items: baseline;
+}
+
+.icon1 {
+display: block;
+width: 30.16px;
+height: 30px;
+background-image: url(../Images/Triangle.png);
+margin-right: 20px
+}
+
+.icon1{
 /* Button */
-position: absolute;
-left: 73.5%;
-right: 19.21%;
-top: 19.23%;
-bottom: 21.79%;
-    
-/* Sign In */
-position: absolute;
-height: 24px;
-left: 24.75%;
-right: 21.78%;
-top: calc(50% - 24px/2);
+width: 366px;
+height: 53px;
+left: 145px;
+top: 489px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height */
-color: #173A56;
-
-/* Bg */
-box-sizing: border-box;
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-border: 1px solid #BCD0E5;
-border-radius: 4px;
 }
 
-.Rectangle{
-/* Rectangle */
-position: absolute;
-left: 0%;
-right: 0%;
-top: 100%;
-bottom: -100%;
-
-background: #FFFFFF;
-transform: matrix(1, 0, 0, -1, 0, 0);
+.nav_btn1>li {
+margin-left: 15px;
 }
+.nav1_btn2>li {
+margin-right: 15px;}
+
+
+.navi_btn1 {
+background-color:#FF9900 ;
+}
+
+.design {
+/* image */
+position: absolute;
+width: 605px;
+height: 496px;
+left: 666px;
+top: 128px;
+background-image: url(../Images/Productly1.png);
+display: flex;
+align-items: flex-end;
+justify-content: flex-end;
+
+}    
