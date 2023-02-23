@@ -1,10 +1,9 @@
 body {
-position: absolute;
 width: 1400px;
 height: 3843px;
 font-family: 'Poppins', sans-serif;
 }
-.header {
+.navigation {
 width: 100%;
 max-width: 1400px;
 margin: 0 auto;
@@ -15,6 +14,8 @@ justify-content: space;
 align-items: center;
 box-sizing: border-box;
 }
+
+
 .nav{
 list-style-type: none;
 display: flex;
@@ -65,7 +66,6 @@ color:#2F281E ;
 
 .sign-up
 { 
-position: absolute;
 left: 81.79%;
 right: 10.36%;
 top: 19.23%;
@@ -81,29 +81,18 @@ background: #FF9900;
 border-radius: 4px;
 }
 
-.left-side{
-/* Left side */
-width: 518px;
-height: 331px;
-left: 145px;
-top: 211px;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.block {
+.block1 {
 /* button */
 width: 175px;
 height: 53px;
-left: 145px;
-top: 489px;
+
 justify-content: baseline;
 align-items: baseline;
 }
 
 .icon1 {
-display: block;
-width: 30.16px;
-height: 30px;
+width: 20.16px;
+height: 20px;
 background-image: url(../Images/Triangle.png);
 margin-right: 20px
 }
@@ -112,8 +101,7 @@ margin-right: 20px
 /* Button */
 width: 366px;
 height: 53px;
-left: 145px;
-top: 489px;
+
 
 }
 
@@ -127,17 +115,402 @@ margin-right: 15px;}
 .navi_btn1 {
 background-color:#FF9900 ;
 }
-
-.design {
+.navi1_btn2 {
+color: #FF9900;
+}
+.image {
 /* image */
-position: absolute;
 width: 605px;
 height: 496px;
 left: 666px;
 top: 128px;
-background-image: url(../Images/Productly1.png);
 display: flex;
 align-items: flex-end;
-justify-content: flex-end;
+}
 
-}    
+.oval {  
+/* Oval */
+
+width: 467px;
+height: 438px;
+left: 1186;
+top: 157px;
+display: flex;
+align-items: flex-end;
+background: #FFE5D2;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+
+
+.header02 {
+/* 02 Header */
+
+width: 1126px;
+height: 496px;
+left: 145px;
+top: 128px;
+}
+.header{
+/* Left side */
+width: 518px;
+height: 331px;
+left: 145px;
+top: 211px;
+align-items: flex-start;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.mainfeature {
+/* 03 Feature */
+position: absolute;
+width: 2211px;
+height: 543px;
+left: -406px;
+top: 734px;
+display: flex;
+justify-content: flex-start;
+}
+.feature1 {
+/* We design tools to u */
+position: absolute;
+height: 108px;
+left: 38.22%;
+right: 37.4%;
+top: calc(50% - 108px/2 - 217.5px);
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 44px;
+display: flex;
+text-align: center;
+
+color: #2F281E;
+
+}
+.card {
+/* Card */
+position: absolute;
+width: 1095px;
+height: 204px;
+left: 567px;
+top: 162px;
+
+}
+
+.card4 {
+/* 4 */
+position: absolute;
+width: 240px;
+height: 204px;
+left: 1422px;
+top: 162px;
+}
+
+.card4-text {
+/* Text */
+
+left: 64.31%;
+right: 24.83%;
+top: 44.57%;
+bottom: 32.6%;
+}
+
+.icon4 {
+/* icon4 */
+
+left: 64.31%; 
+right: 33.42%;
+top: 29.83%;
+bottom: 60.96%;
+display: flex;
+}
+
+.text {
+/* Five second tests */
+height: 33px;
+left: 0%;
+right: 20%;
+top: calc(50% - 33px/2 - 45.5px);
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 33px;
+/* identical to box height */
+color: #2F281E;
+}
+
+
+.card3{
+/* 3 */
+position: absolute;
+width: 240px;
+height: 178px;
+left: 1138px;
+top: 162px;
+
+}
+.card3-text {
+/* Text */
+left: 51.47%;
+right: 37.68%;
+top: 44.57%;
+bottom: 37.38%;
+}
+.icon3 {
+/* icon3 */
+left: 51.47%;
+right: 46.27%;
+top: 29.83%;
+bottom: 60.96%;
+display: flex;
+}
+
+
+.card2 {
+/* 2 */
+position: absolute;
+width: 240px;
+height: 178px;
+left: 853px;
+top: 162px;
+
+}
+.card2-text {
+/* Text */
+left: 38.58%;
+right: 50.57%;
+top: 44.57%;
+bottom: 37.38%;
+}
+
+.icon2 {
+/* icon2 */
+left: 38.58%;
+right: 59.16%;
+top: 29.83%;
+bottom: 60.96%;
+display: flex;
+}
+
+.card1 {
+/* 1 */
+position: absolute;
+width: 40px;
+height: 178px;
+left: 567px;
+top: 162px;
+display: flex;
+flex-wrap: wrap;
+
+}
+.card1-text {
+/* Text */
+left: 25.64%;
+right: 63.5%;
+top: 44.57%;
+bottom: 37.38%;
+}
+
+.icon1 {
+/* icon1 */
+left: 25.64%;
+right: 72.05%;
+top: 29.83%;
+bottom: 60.96%;
+display: flex;
+}
+
+
+.button1 {
+/* button */
+
+left: 46.45%;
+right: 45.64%;
+top: 73.66%;
+bottom: 16.57%;
+
+}
+
+.sign-up {
+/* SIGN UP NOW */
+position: absolute;
+height: 24px;
+left: 19.43%;
+right: 18.29%;
+top: calc(50% - 24px/2 + 0.5px);
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+color: #FFFFFF;
+
+
+}
+.card{
+/* Rectangle */
+
+background: #FF9900;
+border-radius: 4px;
+}
+
+.validation-image {
+/* Image */
+position: absolute;
+width: 520px;
+height: 574px;
+left: 735px;
+top: 1397px;
+}
+
+.validation{
+/* 04 Effortless Validation */
+position: absolute;
+width: 1110px;
+height: 574px;
+left: 145px;
+top: 1397px;
+/* Effortless Validatio */
+
+}
+
+.validation-text{
+/* Text */
+
+max-width: 486px;
+max-height: 531px;
+left: 145px;
+top: 1423px;
+}
+
+.text-validation {
+/* The Myspace page def */
+
+
+top: 19.4%;
+bottom: 65.91%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+color: #544837;
+}
+
+.header4{
+/* Design Professionals */
+height: 54px;
+left: 0%;
+right: 20.78%;
+top: calc(50% - 54px/2 - 211.5px);
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 54px;
+/* identical to box height */
+color: #2F281E;
+
+}
+.h4{
+/* Custom Design design */
+
+height: 26px;
+left: 0%;
+right: 56.58%;
+top: calc(50% - 26px/2 - 32px);
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+color: #2F281E;
+}
+.text-validation1{
+/* If you are looking f */
+
+left: 0%;
+right: 0%;
+top: 42.22%;
+bottom: 0%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+color: #544837;
+
+}
+
+.text-validation2 {
+ /* If you are looking f */
+
+left: 0%;
+right: 0%;
+top: 42.22%;
+bottom: 0%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+color: #544837;   
+}
+
+.h4{
+/* Alterationists */
+
+height: 26px;
+left: 0%;
+right: 76.95%;
+top: calc(50% - 26px/2 - 32px);
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+color: #2F281E;
+}
+
+.text-validation3 {
+/* While most people en */
+
+left: 0%;
+right: 0%;
+top: 42.22%;
+bottom: 0%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+color: #544837;
+}
+
+.h4 {
+/* Accessory makers */
+
+height: 26px;
+left: 0%;
+right: 68.52%;
+top: calc(50% - 26px/2 - 32px);
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+color: #2F281E;
+ 
+}
